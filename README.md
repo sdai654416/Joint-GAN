@@ -29,9 +29,9 @@ Train a Joint GAN model on the CUB dataset using the preprocessed data for birds
 **Results**
 
 Generated results can be find in `ckt_logs/birds/`
-- fake_images: generated images from noise
-- gen_fake_sentences: conditionally generated sentences based on fake_images
-- fake_sentences: generated sentences from noise
-- gen_fake_images: conditionally generated images based on fake_sentences
+- `fake_images.jpg`: generated images from noise
+- `gen_fake_sentences.txt`: conditionally generated sentences based on `fake_images.jpg`
+- `fake_sentences.txt`: generated sentences from noise
+- `gen_fake_images.jpg`: conditionally generated images based on `fake_sentences.txt`
 
 The very left column of each image file is sample real images. The rest 16 images are paired with the first 16 sentences in the corresponding text file. 
