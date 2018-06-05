@@ -1,6 +1,6 @@
 # Joint-GAN
 
-Tensorflow implementation for reproducing results in Joint GAN. Implemented based on [StackGAN](https://github.com/hanzhanggit/StackGAN).
+Tensorflow implementation for reproducing results in Joint GAN. Implemented based on [StackGAN](https://arxiv.org/abs/1612.03242). Many thanks for sharing the [code](https://github.com/hanzhanggit/StackGAN).
 
 ### Dependencies
 - `python 2.7`
