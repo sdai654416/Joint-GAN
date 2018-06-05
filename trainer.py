@@ -504,7 +504,7 @@ class CondGANTrainer(object):
         # save images generated for train and test captions
         scipy.misc.imsave('%s/gen_fake_images.jpg' % (self.log_dir), gen_samples[0])
         scipy.misc.imsave('%s/fake_images.jpg' % (self.log_dir), gen_samples[1])
-        pdb.set_trace()
+        
         save_txt(self.checkpoint_dir+'/fake_sentences.txt', fake_word)
         save_txt(self.checkpoint_dir+'/gen_fake_sentences.txt', gen_fake_word)
         # np.savetxt(self.checkpoint_dir+'/fake_words.txt', fake_word, fmt='%i', delimiter=' ')
