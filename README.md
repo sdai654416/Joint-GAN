@@ -22,4 +22,5 @@ Tensorflow implementation for reproducing results in Joint GAN. Implemented base
 
 
 **Training**
+
 Train a Joint GAN model on the CUB dataset using the preprocessed data for birds: `python Main.py`
