@@ -32,6 +32,6 @@ Generated results can be find in `ckt_logs/birds/`
 - fake_images: generated images from noise
 - gen_fake_sentences: conditionally generated sentences based on fake_images
 - fake_sentences: generated sentences from noise
-- gen_fake_images: conditionaly generated images based on fake_sentences
+- gen_fake_images: conditionally generated images based on fake_sentences
 
 The very left column of each image file is sample real images. The rest 16 images are paired with the first 16 sentences in the corresponding text file. 
