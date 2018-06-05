@@ -19,7 +19,7 @@ Tensorflow implementation for reproducing results in Joint GAN. Implemented base
 3. Preprocess images: `python misc/preprocess_birds.py`
 
 **Pretrained Model**
-1. Download the pretrained LSTM decoder for [bird](https://drive.google.com/open?id=1j9do5K1BbghwD6W--XvJmbhj21XEEqjV) save all files to `pretrain/`
+1. Download the pretrained LSTM decoder for [bird](https://drive.google.com/open?id=1j9do5K1BbghwD6W--XvJmbhj21XEEqjV) and unzip all files to `pretrain/`
 
 **Training**
 
